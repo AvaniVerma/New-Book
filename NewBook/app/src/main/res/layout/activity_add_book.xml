@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_add_book"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.avani.newbook.AddBook">
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/linearLayout"
+        android:weightSum="10"
+        android:orientation="vertical">
+
+
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@mipmap/image_add"
+            android:id="@+id/addImage"
+            android:layout_margin="0dp"
+            android:layout_weight="5"
+            android:background="@mipmap/image_add"
+            android:scaleType="centerCrop"
+            />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:hint="Book Title"
+            android:background="@drawable/input_outline"
+            android:textAlignment="center"
+            android:layout_below="@+id/linearLayout"
+            android:layout_centerHorizontal="true"
+            android:padding="10dp"
+            android:id="@+id/bookTitle"
+            android:maxLines="1"
+            android:layout_weight="2" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/input_outline"
+            android:inputType="textPersonName"
+            android:hint="Author"
+            android:padding="10dp"
+            android:textAlignment="center"
+            android:layout_below="@id/bookTitle"
+            android:maxLines="1"
+            android:id="@+id/author"
+            android:layout_weight="1" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/input_outline"
+            android:inputType="textPersonName"
+            android:hint="Genre"
+            android:padding="10dp"
+            android:maxLines="1"
+            android:textAlignment="center"
+            android:layout_below="@+id/author"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/genre"
+            android:layout_weight="1" />
+
+        <Button
+            android:text="Add Book"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/addBook"
+            android:background="@color/colorPrimary"
+            android:textColor="@color/cardview_light_background"
+            android:layout_weight="1" />
+
+
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>

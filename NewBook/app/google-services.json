@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "329453405431",
+    "firebase_url": "https://newbook-9f357.firebaseio.com",
+    "project_id": "newbook-9f357",
+    "storage_bucket": "newbook-9f357.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:329453405431:android:2e15f5f23be8f7bd",
+        "android_client_info": {
+          "package_name": "com.avani.newbook"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "329453405431-2od5sigdaud4cobvnnits7q6hf4fi622.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.avani.newbook",
+            "certificate_hash": "5aad611bfeb0bfa945f30f94e0399ad5756eb9c2"
+          }
+        },
+        {
+          "client_id": "329453405431-v9hrr7dvslbta1rtr79ugtifkg18tosc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAcv20ZiN3XqbSjoZ-1BbcnPW6TTPcOvJs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "329453405431-v9hrr7dvslbta1rtr79ugtifkg18tosc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

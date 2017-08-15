@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="20dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/book_image"
+            android:src="@drawable/book"
+            android:adjustViewBounds="true"
+            android:padding="10dp"
+            android:scaleType="centerCrop"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Book name"
+            android:textStyle="bold"
+            android:padding="10dp"
+            android:textSize="20dp"
+            android:id="@+id/book_title"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Author name"
+            android:padding="10dp"
+            android:id="@+id/book_author"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Book genre"
+            android:padding="10dp"
+            android:id="@+id/book_genre"/>
+
+
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>
